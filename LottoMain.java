@@ -15,7 +15,7 @@ public class LottoMain {
 		String set ;
 		
 		System.out.println("=====================");
-		System.out.println(" <로또자동번호판매>");
+		System.out.println("   <로또자동번호판매>");
 		System.out.println(" 1.판매 2.매출 3.종료");
 		System.out.println();
 		System.out.println("=====================");
@@ -24,7 +24,7 @@ public class LottoMain {
 		
 		switch(set) {
 		case "1" :
-			ob.getNum();
+			ob.input();
 			break;
 		case "2" :
 			ob.sale();
