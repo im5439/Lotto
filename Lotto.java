@@ -8,6 +8,6 @@ public interface Lotto {
 	public void getNum();
 	public int[] randomSort(int[] num);
 	public void print();
-	public void sale();
+	public void getSales();
 
 }
